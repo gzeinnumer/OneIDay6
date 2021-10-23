@@ -52,6 +52,7 @@ public class NotificationFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         getActivity().startService(new Intent(requireActivity(), TimerService.class));
+
         binding.btnTriggerNotification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
