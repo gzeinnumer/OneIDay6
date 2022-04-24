@@ -59,6 +59,9 @@ public class NotificationFragment extends Fragment {
                 getActivity().startService(new Intent(requireActivity(), TimerService.class));
             }
         });
+        binding.btnToSessionExample.setOnClickListener(v -> {
+            requireActivity().startActivity(new Intent(requireContext(), SessionExampleActivity.class));
+        });
     }
 
     @Override

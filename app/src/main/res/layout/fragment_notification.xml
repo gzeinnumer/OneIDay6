@@ -16,6 +16,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+    <Button
+        android:id="@+id/btn_to_session_example"
+        app:layout_constraintTop_toBottomOf="@id/btn_trigger_notification"
+        android:layout_width="wrap_content"
+        android:text="To Session Example"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_height="wrap_content"/>
+
     <TextView
         android:id="@+id/tv"
         android:layout_width="wrap_content"
